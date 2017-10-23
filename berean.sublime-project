@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"_plugins",
+				"assets",
+				"node_modules",
+			],
+			"file_exclude_patterns":
+			[
+				".gitignore",
+				".jekyll-metadata",
+				"Gemfile*",
+				"package*json",
+				"berean.sublime-project",
+				"gulpfile.js",
+			],
+			"follow_symlinks": true,
+			"path": "."
+		},
+	],
+	"build_systems":
+    [
+        {
+            "name": "Gulp",
+            "cmd": ["gulp"]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "berean-robotics-site",
+  "version": "1.0.0",
+  "description": "Basic template for a new website project.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bereanrobotics/gh-pages.git"
+  },
+  "author": "Berean Robotics Team",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
+    "motion-ui": "^1.2.3",
+    "normalize-scss": "^7.0.0"
+  }
+}
