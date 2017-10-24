@@ -1,6 +1,6 @@
 # Berean Robotics Website
 
-The following document reviews all apsects of how to setup and maintain the <http://bereanrobotics.org>.
+The following document reviews all apsects of how to setup and maintain the <https://bereanrobotics.org>.
 
 ## Getting Started
 
