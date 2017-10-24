@@ -30,10 +30,12 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - bower.json
-  - CHANGELOG.md
   - gulpfile.js
   - package.json
+  - package-lock.json
   - README.md
   - node_modules
-  - bower_components
+  - berean.sublime-workspace
+  - berean.sublime-project
+  - sublime-gulp.cache
+
