@@ -28,8 +28,8 @@ Once all of those programs are installed, we can setup the website environment.
 
 Install the following tools via Terminal (Mac) or PowerShell (Windows):
 
-- Jekyll(https://jekyllrb.com/)
-- Gulp(https://gulpjs.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Gulp](https://gulpjs.com/)
 
 
 ### Compile the Website
