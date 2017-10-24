@@ -38,4 +38,4 @@ exclude:
   - berean.sublime-workspace
   - berean.sublime-project
   - sublime-gulp.cache
-
+  - sublime-gulp.log
