@@ -1,0 +1,8 @@
+.DS_Store
+_site
+assets
+.jekyll-metadata
+.sass-cache
+node_modules
+berean.sublime-workspace
+sublime-gulp.cache
