@@ -6,3 +6,4 @@ assets
 node_modules
 berean.sublime-workspace
 sublime-gulp.cache
+*.log
