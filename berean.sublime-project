@@ -11,8 +11,7 @@
 			],
 			"file_exclude_patterns":
 			[
-				".gitignore",
-				".jekyll-metadata",
+				".*",
 				"Gemfile*",
 				"package*json",
 				"berean.sublime*",
