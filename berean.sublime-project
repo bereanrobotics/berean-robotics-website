@@ -15,7 +15,7 @@
 				".jekyll-metadata",
 				"Gemfile*",
 				"package*json",
-				"berean.sublime-project",
+				"berean.sublime*",
 				"gulpfile.js",
 			],
 			"follow_symlinks": true,

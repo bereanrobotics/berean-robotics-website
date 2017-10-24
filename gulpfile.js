@@ -6,6 +6,7 @@ const concat = require('gulp-concat');
 const gutil = require('gulp-util');
 const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
+const bundledGemSpawn = require('bundled-gem-spawn');
 
 const $ = require('gulp-load-plugins')();
 
@@ -51,7 +52,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build',
+  const jekyll = bundledGemSpawn('jekyll', ['build',
     '--watch',
     '--incremental',
     '--drafts'
