@@ -10,13 +10,13 @@ To maintain the website, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/)
 - [Ruby](https://rubyinstaller.org/)
-- [Git](https://git-scm.com/) _(Optional - Windows Only)_
 - [Github Desktop](https://desktop.github.com/)
 - [SublimeText 3](https://www.sublimetext.com/) _(or another fav code editor)_
 - Recommended SublimeText packages
 	- [Package Control](https://packagecontrol.io/installation)
 	- GitGutter
 	- SCSS
+	- Gulp
 	- SideBarEnhancements
 	- SublimeLinter
 	- SublimeLinter-csshint
@@ -30,7 +30,8 @@ Install the following tools via Terminal (Mac) or PowerShell (Windows):
 
 - [Jekyll](https://jekyllrb.com/)
 - [Gulp](https://gulpjs.com/)
-
+- [Windows Build Tools](https://www.npmjs.com/package/windows-build-tools) _(Windows Only)_
+	- You must run PowerShell as Administrator to install this
 
 ### Compile the Website
 
@@ -38,7 +39,9 @@ Install the following tools via Terminal (Mac) or PowerShell (Windows):
 - You will then need to open Terminal (Mac) or PowerShell (Windows) and navigate to the folder that contains this repository.
 	- type `cd` then drag the folder into the terminal window from Finder (Mac) or File Explorer (Windows)
 - Type the following command to install the node modules: `npm install`. Then hit Enter.
+- Type the following command to install the jekyll plugins: `bundle install`. Then hit Enter.
 - _If you are using SublimeText_, you can compile the website by using selecting `Tools->Build` from the menu or using the keyboard short.
+	- Another optio with SublimeText is to use the Gulp plugin for ST. Simply type in `shift+cmd+P` and type in `gulp` into the command window. Hit Enter. Select `Default` then enter again.
 - _If you are NOT using SublimeText_, you will have to use the terminal on your machine to run a build. From the folder inside your terminal run the command: `gulp`
 - Once you have compiled the webiste, your web browser should open immediately with a preview of the website. If you leave this browser open, all changes that you make from now on will be automatically reflected inside the brwoser, like magic.
 
