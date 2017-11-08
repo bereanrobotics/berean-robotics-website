@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is the official site of Berean Christian Highschool's robotics team. 
+This is the official site of Berean Christian Highschool's robotics team.
