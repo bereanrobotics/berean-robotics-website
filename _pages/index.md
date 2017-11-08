@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Hello, from Berean Robotics! From Arkin and Steven....
+This is the official site of Berean Christian Highschool's robotics team. 
