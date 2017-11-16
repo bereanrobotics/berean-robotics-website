@@ -1,7 +1,29 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <img class="logo" src="/images/logo.png">
+        <h3>Berean Robotics</h3>
+      </div>
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   
@@ -27,6 +49,5 @@
           {% endfor %}
         </div>
       </nav>
-    {% endif %}
-  </div>
+    {% endif %} -->
 </header>
