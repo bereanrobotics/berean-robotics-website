@@ -9,6 +9,12 @@
 
 }
 
+.top-bar {
+
+	background: #042a68;
+	color: white;
+}
+
 .top-bar-left {
 
 	h3, img {display: inline-block;}
@@ -16,16 +22,27 @@
 
 }
 
-.top-bar {
+.top-bar-right {
 
-	ul, li, a {background: #042a68; color: white;}
-	background: #042a68;
-	color: white;
+	ul, li, a {background: #042a68; display: inline-block;}
 
 }
 
 .centered {
 
 	text-align: center;
+
+}
+
+.indent {
+
+	text-indent: 36pt;
+
+}
+
+.colum-wrapper {
+
+	margin-right: 7rem;
+	margin-left: 7rem;
 
 }
