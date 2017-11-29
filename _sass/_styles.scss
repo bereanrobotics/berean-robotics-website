@@ -12,7 +12,9 @@
 .top-bar {
 
 	background: #042a68;
-	color: white;
+	a, h1 {color: white;}
+	a:visited {color: white;}
+	text-decoration: none;
 }
 
 .top-bar-left {
@@ -44,5 +46,12 @@
 
 	margin-right: 7rem;
 	margin-left: 7rem;
+
+}
+
+.no-image-colum-wrapper {
+
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
 
 }
