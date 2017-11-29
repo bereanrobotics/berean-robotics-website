@@ -6,8 +6,6 @@ permalink: /about/
 
 <div class="wrapper">
 
-#About
-
 Berean Christian Robotics currently participates in the First Tech Challenge robotics league. Our robot is #4998, codename Q. Our team strives to achieve FTC’s motto - gracious professionalism. Our current captains are Luke Wilson and Chris Cafiero. The most notable awards our teams have won are: The Motivate Award (16/17), Control Award (16/17), Innovative Award (14/15) , and the Design Award (11/12).
 
 For inquiries contact us at bchs.ftcrobotics@gmail.com 
