@@ -1,6 +1,22 @@
+html,body{
+
+    height: 100%
+
+}
+
 #yTPlay {
 	width: 2.5rem;
 	height: 1.5rem;
+}
+
+#footer {
+
+	background: #042a68;
+	color: white;
+	padding: 1rem;
+	right: 0;
+	left: 0;
+
 }
 
 .logo{
@@ -15,7 +31,7 @@
 	a, h1 {color: white;}
 	a:visited {color: white;}
 	text-decoration: none;
-	a:hover {color: inherit}
+	a:hover {color: white;}
 }
 
 .top-bar-left {
@@ -27,7 +43,7 @@
 
 .top-bar-right {
 
-	ul, li, a {background: #042a68; display: inline-block;}
+	ul, li, a {background: #042a68}
 
 }
 
