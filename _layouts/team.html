@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="colum-wrapper">
+	<div class="grid-x">
+		<div class="large-6 medium-6 small-12">
+			<header class="post-header">
+				<h1 class="post-title">{{ page.title | escape }}</h1>
+			</header>
+		</div>
+		<div class="large-6 medium-6 small-12">
+			{% includes slideshow.html %}
+		</div>
+		<div class="large-6 medium-6 small-12 cell">
+			<div class="no-image-colum-wrapper">
+				<img src="/images/build/placeholder.jpg">
+			</div>
+		</div>
+		<div class="large-6 medium-6 small-12 cell">
+			<h3>Bob</h3>
+			<p>Favorite pizza: Bacon</p>
+		</div>
+	</div>
+</div>
