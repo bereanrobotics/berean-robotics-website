@@ -10,6 +10,10 @@ Berean Christian Robotics currently participates in the First Tech Challenge rob
 <br>
 <br>
 For inquiries contact us at bchs.ftcrobotics@gmail.com 
+<br>
+<br>
+<i>Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.</i>
+<i><strong>Colossians 3:23</strong></i>
 
 </div>
 
