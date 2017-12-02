@@ -1,7 +1,43 @@
 <header class="site-header" role="banner">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <a href="/"><img class="logo" src="/images/logo.png"></a>
+      <h3><a href="/">Berean Christian Robotics</a></h3>
+    </div>
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li><a href="/">Home</a></li>
+        <li><a href="/About">About</a></li>
+        <li class="has-submenu">
+          <a href="#0">Teams</a>
+            <ul class="submenu menu vertical" data-subbmenu>
+              <li><a href="/teams/build">Build Team</a></li>
+              <li><a href="/teams/program">Programming Team</a></li>
+              <li><a href="/teams/manage">Management Team</a></li>
+              <li><a href="/teams/web">Website Team</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#0">External Links</a>
+            <ul class="submenu menu vertical" data-subbmenu>
+              <li><a href="bereaneagles.org">BCHS Website</a></li>
+              <li><a href="https://www.firstinspires.org/robotics/ftc/">First Tech Challenge</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
+
+
+
+
+
+
+
+
+
+    <!-- {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   
@@ -27,6 +63,5 @@
           {% endfor %}
         </div>
       </nav>
-    {% endif %}
-  </div>
+    {% endif %} -->
 </header>

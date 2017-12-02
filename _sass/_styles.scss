@@ -1,1 +1,80 @@
-h1{color:red;}
+html,body{
+
+    height: 100%
+
+}
+
+#yTPlay {
+	width: 2.5rem;
+	height: 1.5rem;
+}
+
+#footer {
+
+	background: #042a68;
+	color: white;
+	padding: 1rem;
+	right: 0;
+	left: 0;
+
+}
+
+.logo{
+
+	max-height: 4.7rem;
+
+}
+
+.top-bar {
+
+	background: #042a68;
+	a, h1 {color: white;}
+	a:visited {color: white;}
+	text-decoration: none;
+	a:hover {color: white;}
+}
+
+.top-bar-left {
+
+	h3, img {display: inline-block;}
+	h3 {padding-left: 1.5rem;}
+
+}
+
+.top-bar-right {
+
+	ul, li, a {background: #042a68}
+
+}
+
+.centered {
+
+	text-align: center;
+
+}
+
+.indent {
+
+	text-indent: 36pt;
+
+}
+
+.colum-wrapper {
+
+	margin-right: 7rem;
+	margin-left: 7rem;
+
+}
+
+.no-image-colum-wrapper {
+
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+
+}
+
+.welcome-background {
+
+	background-color: #ffae00;
+
+}
