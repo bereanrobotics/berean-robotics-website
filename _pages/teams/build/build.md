@@ -1,6 +1,6 @@
 ---
 title: Build Team
-imagepath: /images/build/pic
+page: build
 layout: team
 permalink: /teams/build/
 ---

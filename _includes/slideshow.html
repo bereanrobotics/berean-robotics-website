@@ -12,12 +12,15 @@
         </figure>
       </li>
       {% for image in site.static_files %}
-        {% if image.path contains site.imagepath %}
-          <li class="orbit-slide">
+        {% if image.path contains '/images{{ site.page }}pic' %}
+<!--           <li class="orbit-slide">
             <figure class="orbit-figure">
               <img class="orbit-image" src="{{ image.path }}" alt="Berean Team Picture">
             </figure>
-          </li>
+          </li> -->
+
+          <p>hi</p>
+
         {% endif %}
       {% endfor %}
     </ul>
@@ -28,6 +31,7 @@
     {% for image in site.static_files %}
       {% if image.path contains imagepath %}
         <button data-slide="1"><span class="show-for-sr"></span></button>
+
       {% endif %}
     {% endfor %}
   </nav>

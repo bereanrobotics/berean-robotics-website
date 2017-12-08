@@ -1,0 +1,12 @@
+teams:
+  - rank: 1 
+    name: awsomebot 
+    qp: 2 
+    rp: 123 
+    plays: 5
+
+  - rank: 2 
+    name: coolbot 
+    qp: 1 
+    rp: 56 
+    plays: 5

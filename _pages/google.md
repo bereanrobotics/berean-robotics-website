@@ -8,34 +8,26 @@ permalink: /tournaments/google/
 	<div class="grid-x">
 		<div class="large-6 small-12 cell">
 			<table>
-			  <thead>
-			    <tr>
-			      <th width="120" class="centered">Team</th>
-			      <th class="centered">QP</th>
-			      <th width="150" class="centered">RP</th>
-			      <th width="150" class="centered">Plays</th>
-			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr>
-			      <td>Content Go1es Here</td>
-			      <td>This is lo2nger content Donec id elit non mi porta gravida at eget metus.</td>
-			      <td>Content Go3es Here</td>
-			      <td>Content Goe44s Here</td>
-			    </tr>
-			    <tr>
-			      <td>Content Goes Here</td>
-			      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-			      <td>Content Goes Here</td>
-			      <td>Content Goes Here</td>
-			    </tr>
-			    <tr>
-			      <td>Content Goes Here</td>
-			      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-			      <td>Content Goes Here</td>
-			      <td>Content Goes Here</td>
-			    </tr>
-			  </tbody>
+				<thead>
+					<tr>
+					<th width="20" class="centered">Rank</th>
+					<th width="300" class="centered">Team</th>
+					<th class="centered">QP</th>
+					<th width="50" class="centered">RP</th>
+					<th width="50" class="centered">Plays</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for team in site.data.teams %}
+						<tr>
+							<td>{{ team.rank }}</td>
+							<td>{{ team.name }}</td>
+							<td>{{ team.qp }}</td>
+							<td>{{ team.rp }}</td>
+							<td>{{ team.plays }}</td>
+						</tr>
+					{% endfor%}
+				</tbody>
 			</table>
 		</div>
 		<div class="large-6 small-12 cell">
