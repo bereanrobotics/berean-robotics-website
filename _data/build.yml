@@ -1,0 +1,27 @@
+persons:
+- name: Chris Cafiero
+  grade: 12th
+  role: Builder
+  fav: Spumomi
+  major: Engineering
+  pp: Kids
+  sa: I have no idea
+  intrest: It's entertaining and productive
+
+- name: Aaron Stenzel
+  grade: 10th
+  role: Builder
+  fav: Cookie Dough
+  major: Film Studies
+  pp: When people leave used napkins on a table
+  sa: Penguin
+  intrest: I like building stuff and the competitions
+
+- name: Luke Wilson
+  grade: 12th
+  role: Build Team Leader and Team Captain
+  fav: Vanilla
+  major: Mechanical Engineering
+  pp: Adults talking when they should be working
+  sa: Marmot
+  interest: Solving mechanical problems and learning about leadership
