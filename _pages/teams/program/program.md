@@ -5,3 +5,4 @@ permalink: /teams/program/
 base: program
 path: images/program/pic
 ---
+The programing team programs the robot

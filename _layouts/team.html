@@ -6,44 +6,64 @@ layout: default
 		<div class="large-6 shrink cell">
 			<header class="post-header">
 				<h1 class="post-title">{{ page.title | escape }}</h1>
+				<div class="no-image-column-wrapper">
+					<p class="indent">{{ content }}</p>
+				</div>
 			</header>
 		</div>
 		<div class="large-6 shrink cell">
 			{% include slideshow.html %}
 		</div>
-		{% for person in site.data.build.persons %}
-		<div class="large-6 shrink cell">
-			<div class="team-image">
-				<img src="/images/{{ page.base }}/{{ person.name }}.jpg">
-			</div>
-			<style type="text/css">
-				
-				.team-image {
+		{% for person in site.data.people.persons %}
+			{% if person.team contains page.base %}
+				<div class="large-6 shrink cell">
+					<div class="team-image">
+						<img src="/images/{{ page.base }}/{{ person.name }}.jpg">
+					</div>
+					<style type="text/css">
+						
+						.team-image {
 
-					margin-bottom: 4.5rem;
-					margin-top: 2rem;
-					max-height: 1rem;
-					max-width: 16rem;
-					margin-right: 10rem;
-					margin-left: 10rem;
+							margin-bottom: 4.5rem;
+							margin-top: 2rem;
+							max-height: 1rem;
+							max-width: 16rem;
+							margin-right: 10rem;
+							margin-left: 10rem;
+							padding-bottom: 5rem;
 
-				}
+						}
 
-			</style>
-		</div>
-		<div class="large-6 shrink cell">
-			<div class="no-image-column-wrapper">
-					<h3>{{ person.name }}</h3>
-					<br>
-					<p>What grade are you in? <strong>{{ person.grade }}</strong></p>
-					<p>What is your role in robotics? <strong>{{ person.role }}</strong></p>
-					<p>What is your favorite ice cream? <strong>{{ person.fav }}</strong></p>
-					<p>What would you like to major in? <strong>{{ person.major }}</strong></p>
-					<p>What is your biggest pet peeve? <strong>{{ person.pp }}</strong></p>
-					<p>What is your spirit animal? <strong>{{ person.sa }}</strong></p>
-					<p>Why are you intrested in robotics? <strong>{{ person.intrest }}</strong></p>
-				{% endfor %}
-			</div>
-		</div>
+					</style>
+				</div>
+				<div class="large-6 shrink cell">
+					<div class="no-image-column-wrapper">
+						<div class="team-bio">
+							<h3>{{ person.name }}</h3>
+							<br>
+							<p>What grade are you in? <strong>{{ person.grade }}</strong></p>
+							<p>What is your role in robotics? <strong>{{ person.role }}</strong></p>
+							<p>What is your favorite ice cream? <strong>{{ person.fav }}</strong></p>
+							<p>What would you like to major in? <strong>{{ person.major }}</strong></p>
+							<p>What is your biggest pet peeve? <strong>{{ person.pp }}</strong></p>
+							<p>What is your spirit animal? <strong>{{ person.sa }}</strong></p>
+							<p>Why are you intrested in robotics? <strong>{{ person.interest }}</strong></p>
+
+							<style type="text/css">
+								
+							.team-bio {
+
+								padding-bottom: 5rem;
+
+							}
+
+
+							</style>
+
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>
