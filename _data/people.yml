@@ -146,142 +146,76 @@ persons:
   interest: it’s pretty cool and I like the creativity and opportunity to build new things.
   team: manage
 
-- name: 
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Slayden Fernandes
+  grade: 10th
+  role: Management
+  fav: Spam
+  major: Dead Memes
+  pp: Taylor Swift
+  sa: Enzo
+  interest: I love building relations and robots, also spending time with my friends is a plus.
+  team:
+    - manage
+    - program
 
-- name: 
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Devin Peterson
+  grade: 10th
+  role: Builder
+  fav: Choclate
+  major: Undecided
+  pp: Scantron Tests
+  sa: Shark
+  interest: To build cool stuff
+  team: build
 
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Joe Cliatt
+  grade: 9th
+  role: Builder
+  fav: Mint Chip
+  major: Engineering
+  pp: People who state the obvious
+  sa: Tiger
+  interest: It gives me a chance to try engineering and I also get to hang out with my friends.
+  team: build
 
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Alvin Solomon
+  grade: 11th
+  role: Management, Journal, YouTuber
+  fav: Cookies and Scream
+  major: Undecided
+  pp: People who act like they know what they're doing, but they don't.
+  sa: Chipmunk
+  interest: Because of the rush one gets when seeing your creation compete.
+  team:
+    - manage
+    - program
 
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Lauryn Anderson
+  grade: 11th
+  role: Builder
+  fav: Cookie dough and Fudge
+  major: Astrophysics
+  pp: Personal invasions
+  sa: Sea turtle
+  interest: Taking it up a step from LEGOs and loves sci fi.
+  team: build
 
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Josh Dragt
+  grade: 11th
+  role: Builder
+  fav: Choclate Chip Cookie Dough
+  major: Mechanical Engineering
+  pp: Slow Walkers
+  sa: Giraffe
+  interest: I like solving problems
+  team: build
 
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
-
-- name:
-  grade: 
-  role: 
-  fav: 
-  major: 
-  pp: 
-  sa: 
-  interest: 
-  team: 
+- name: Kenny Webb
+  grade: 9th
+  role: Programmer
+  fav: Mint Choclate Chip
+  major: Undecided
+  pp: N/A
+  sa: Unknown
+  interest: It's really interesting
+  team: program
