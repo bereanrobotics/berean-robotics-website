@@ -1,7 +1,14 @@
 teams:
-  - rank: 
-    number: 
-    name:  
-    qp: 
-    rp: 
-    plays: 
+  - rank: 2
+    number: 7564
+    name: hi 
+    qp: 4
+    rp: 7
+    plays: 100
+
+  - rank: 1
+    number: 67437
+    name: bye
+    qp: 9
+    rp: 74
+    plays: 5

@@ -21,19 +21,16 @@ permalink: /tournaments/google/
 					</tr>
 				</thead>
 				<tbody>
-					{% assign order = 0 %}
-					{% for team in site.data.google.teams %}
-						{% assign order = order | plus: 1 %}
-						{% if team.rank == order %}
-							<tr>
-								<td class="centered">{{ team.rank }}</td>
-								<td class="centered">{{ team.number }}</td>
-								<td class="centered">{{ team.name }}</td>
-								<td class="centered">{{ team.qp }}</td>
-								<td class="centered">{{ team.rp }}</td>
-								<td class="centered">{{ team.plays }}</td>
-							</tr>
-						{% endif %}
+					{% assign sorted = site.data.google.teams | sort:"rank" %}
+					{% for team in sorted %}
+						<tr class="table" onclick="ranks()">
+							<td class="centered">{{ team.rank }}</td>
+							<td class="centered">{{ team.number }}</td>
+							<td class="centered">{{ team.name }}</td>
+							<td class="centered">{{ team.qp }}</td>
+							<td class="centered">{{ team.rp }}</td>
+							<td class="centered">{{ team.plays }}</td>
+						</tr>
 					{% endfor%}
 				</tbody>
 			</table>
@@ -41,12 +38,12 @@ permalink: /tournaments/google/
 		{% for team in site.data.google.teams %}
 			{% if team.name == 'Q' %}
 				<div class="large-6 shrink cell">
-					<h2 class="centered"><strong>4998 Q</strong></h2>
-					<h3 class="centered">Berean Christian Robotics</h3>
+					<h2 class="centered"><strong>{{ team.number }} {{ team.name }}</strong></h2>
 					<h4 class="centered"><strong>Rank: </strong>#{{ team.rank }}</h4>
 					<p class="centered"><strong>QP: </strong>{{ team.qp }}</p>
 					<p class="centered"><strong>RP: </strong>{{ team.rp }}</p>
 					<p class="centered"><strong>Plays: </strong>{{ team.plays }}</p>
+					<div id="ranks-right"></div>
 				</div>
 			{% endif %}
 		{% endfor %}

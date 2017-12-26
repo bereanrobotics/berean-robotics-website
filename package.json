@@ -27,7 +27,9 @@
   "private": true,
   "dependencies": {
     "foundation-sites": "^6.4.4-rc1",
+    "js-yaml": "^3.10.0",
     "motion-ui": "^1.2.3",
-    "normalize-scss": "^7.0.0"
+    "normalize-scss": "^7.0.0",
+    "read-yaml": "^1.1.0"
   }
 }
