@@ -2,33 +2,50 @@
 permalink: /hidden/backend/
 layout: backend
 ---
-<button><a href="/">Home</a></button>
+<a href="/">Home</a>
 <br>
 <br>
 <form>
-Plays: <input name="play" type="text">
-Rank: <input name="rank" type="text">
-QP: <input name="qp" type="text">
-RP: <input name="rp" type="text">
-Team:<select name="teams">
-{% for team in site.data.live.teams %}
-		<option value="{{ team.name }}">{{ team.name }}</option>
-{% endfor %}
-</select>
-<input type="button" onclick="sub()" value="submit">
+	Plays: <input name="play" type="text" placeholder="Plays">
+
+	Rank: <input name="rank" type="text" placeholder="Rank">
+
+	QP: <input name="qp" type="text" placeholder="QP">
+
+	RP: <input name="rp" type="text" placeholder="RP">
+
+	Team:<select name="teams">
+
+		{% for team in site.data.live.teams %}
+			<option value="{{ team.name }}">{{ team.name }}</option>
+		{% endfor %}
+
+	</select>
+
+	Add a new team?<br>
+
+	<input type="radio" name="add" value="yes" onclick="show()">Yes<br>
+	<input type="radio" name="add" value="no" onclick="hide()">No
+	<br><br>
+
+	<div id="team-Show"></div>
+
+	<br><br>
+	<input type="button" onclick="sub()" value="Submit" class="button">
 </form>
+<script src="bundle.js"></script>
+<script src="esprima.js"></script>
+<script src="/node_modules/js-yaml/dist/js-yaml.min.js"></script>
 <script type="text/javascript">
-	
-	function sub() {
-
-		var rp = document.getElementsByName('rp')[0].value;
-		var qp = document.getElementsByName('qp')[0].value;
-		var rank = document.getElementsByName('rank')[0].value;
-		var plays = document.getElementsByName('play')[0].value;
-		var team = document.getElementsByName('teams')[0].value;
-		
-		
-
-	}
-
+var doc = jsyaml.load('greeting: hello\nname: world');
+yaml = require('js-yaml');
+fs   = require('fs');
+ 
+try {
+  var doc = yaml.safeLoad(fs.readFileSync('/_data/live.yml', 'utf8'));
+  console.log(doc);
+} catch (e) {
+  console.log(e);
+}
+{% include backend.js %}
 </script>
