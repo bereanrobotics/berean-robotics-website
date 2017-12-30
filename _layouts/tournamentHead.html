@@ -16,6 +16,8 @@ function updateClock()
 {
   var currentTime = new Date();
 
+  var next = "{{ page.next }}";
+
   var currentMonthInt = currentTime.getMonth();
   var currentDay = currentTime.getDate();
   var currentYear = currentTime.getFullYear();
@@ -25,7 +27,7 @@ function updateClock()
   var currentSeconds = currentTime.getSeconds();
   var s = "/"
 
-  var currentDate = currentMonth + s + currentDay + s + currentMonth;
+  var currentDate = currentMonth + s + currentDay + s + currentYear;
 
   currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
   currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
@@ -38,7 +40,18 @@ function updateClock()
 
   var currentTimeString = currentDate + " " + currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 
-  document.getElementById("clock").innerHTML = currentTimeString;
+  if (currentTimeString >= next) {
+
+    document.getElementById("clock-container").innerHTML = '';
+    document.getElementById("next").innerHTML = 'There is a tournament now!'
+
+  } else {
+
+    document.getElementById("clock").innerHTML = currentTimeString;
+
+  }
+
+  
 }
 
 // -->

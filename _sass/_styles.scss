@@ -59,6 +59,12 @@ html,body{
 
 }
 
+.indentX2 {
+
+	text-indent: 72pt;
+
+}
+
 .column-wrapper {
 
 	margin-right: 7rem;
@@ -116,6 +122,10 @@ html,body{
 
 }
 
+/*
+Credit to http://livetools.uiparade.com/button-builder.html# Button Builder
+*/
+
 .button {
    border: 2px solid #0a3c59;
    background: #3e779d;
@@ -164,9 +174,15 @@ html,body{
    color: #000000;
    }
 
+/*
+End Credit 
+*/
 
+#clock-container {
 
+	display: inline-block;
 
+}
 
 
 
