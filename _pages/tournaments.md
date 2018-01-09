@@ -2,7 +2,7 @@
 title: Tournaments
 permalink: /tournaments/
 layout: tournaments
-live: true
+live: false
 tournament: Test
 next: 12/28/2017 12:04:30 PM
 ---

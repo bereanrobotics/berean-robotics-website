@@ -25,7 +25,7 @@ layout: backend
 	Add a new team?<br>
 
 	<input type="radio" name="add" value="yes" onclick="show()">Yes<br>
-	<input type="radio" name="add" value="no" onclick="hide()">No
+	<input type="radio" name="add" value="no" onclick="hide()" checked="checked">No
 	<br><br>
 
 	<div id="team-Show"></div>
@@ -41,11 +41,7 @@ var doc = jsyaml.load('greeting: hello\nname: world');
 yaml = require('js-yaml');
 fs   = require('fs');
  
-try {
-  var doc = yaml.safeLoad(fs.readFileSync('/_data/live.yml', 'utf8'));
-  console.log(doc);
-} catch (e) {
-  console.log(e);
-}
+
+
 {% include backend.js %}
 </script>
