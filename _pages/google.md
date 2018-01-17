@@ -23,14 +23,7 @@ permalink: /tournaments/google/
 				<tbody>
 					{% assign sorted = site.data.google.teams | sort:"rank" %}
 					{% for team in sorted %}
-						<tr class="table" onclick="ranks()">
-							<td class="centered">{{ team.rank }}</td>
-							<td class="centered">{{ team.number }}</td>
-							<td class="centered">{{ team.name }}</td>
-							<td class="centered">{{ team.qp }}</td>
-							<td class="centered">{{ team.rp }}</td>
-							<td class="centered">{{ team.plays }}</td>
-						</tr>
+						{% include tournament-table.html %}
 					{% endfor%}
 				</tbody>
 			</table>
@@ -49,3 +42,12 @@ permalink: /tournaments/google/
 		{% endfor %}
 	</div>
 </div>
+<script type="text/javascript">
+	
+	function ranks() {
+
+		document
+
+	}
+
+</script>

@@ -4,13 +4,12 @@ permalink: /tournaments/
 layout: tournaments
 live: false
 tournament: Test
-next: 12/28/2017 12:04:30 PM
+next: 01/27/2018 9::00 AM
 ---
 <div class="column-wrapper">
-This page Is where you will find the tournaments, there will be live scores and rankings during a tournament. You can also view previous scores below.
-<br><br>
+	This page Is where you will find the tournaments, there will be live scores and rankings during a tournament. You can also view previous scores below.
+	<br><br>
 	{% if page.live == true %}
-		<p id="clock" style="display: none;"></p>
 		<h5 class="column-wrapper centered">These are the rankings for the {{ page.tournament }} Qualifying tournament, which is live.</h5>
 		<br>
 		<div class="column-wrapper">
@@ -59,7 +58,6 @@ This page Is where you will find the tournaments, there will be live scores and 
 	{% else  %}
 		<div class="column-wrapper centered">
 			<h4 id="next">The next tournament will be on: <b>{{ page.next }}</b></h4>
-			<p id="clock-container">The current time is: <span id="clock"></span></p>
 		</div>
 	{% endif %}
 

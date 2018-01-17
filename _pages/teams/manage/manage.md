@@ -5,4 +5,4 @@ permalink: /teams/manage/
 base: manage
 path: images/manage/pic
 ---
-The management team is dedicated to managing the team.
+Management plans and brainstorms outreach, fundraising, and general planning responsibilities. We also work together to compile the engineering notebook by taking pictures, writing papers, and summarizing our team build sessions. 
