@@ -1,0 +1,221 @@
+#+-------------------------------------+
+#|                                     |
+#| The tag, "team", will not show      |
+#|  on the webpage, use "role" instead |
+#|                                     |
+#+-------------------------------------+
+
+persons:
+- name: Chris Cafiero
+  grade: 12th
+  role: Builder
+  fav: Spumomi
+  major: Engineering
+  pp: Kids
+  sa: I have no idea
+  interest: It's entertaining and productive
+  team: build
+
+- name: Aaron Stenzel
+  grade: 10th
+  role: Builder
+  fav: Cookie Dough
+  major: Film Studies
+  pp: When people leave used napkins on a table
+  sa: Penguin
+  interest: I like building stuff and the competitions
+  team: build
+
+- name: Luke Wilson
+  grade: 12th
+  role: Build Team Leader and Team Captain
+  fav: Vanilla
+  major: Mechanical Engineering
+  pp: Adults talking when they should be working
+  sa: Marmot
+  interest: Solving mechanical problems and learning about leadership
+  team: build
+
+- name: Arkin Solomon
+  grade: 9th
+  role: Website
+  fav: All of them except strawberry
+  major: I don't know
+  pp: Homework
+  sa: Bacteria
+  interest: Because robots will take over the world
+  team: web
+
+- name: Heejoon Shin
+  grade: 9th
+  role: Programmer
+  fav: Cookies n' Cream
+  major: Geology, Mathematics, Physics, Biology, Chemistry
+  pp: When the marker makes the squeaky sound on the whiteboard
+  sa: Potato
+  interest: I wanted to have something to do
+  team: program
+    
+- name: Josh Workman
+  grade: 9th
+  role: Programmer
+  fav: Strawberry or Vanilla
+  major: Physics and Biology
+  pp: Losing
+  sa: Dog
+  interest: I thought that it would be fun to join
+  team: program
+
+- name: Jack McPeak
+  grade: 9th
+  role: Programmer
+  fav: Mint Chip
+  major: Coding
+  pp: Losing
+  sa: Dog
+  interest: It seems fun
+  team: program
+
+- name: Angelina Mignani
+  grade: 9th
+  role: Management
+  fav: Anything from Baskin Robins
+  major: Industrial Design
+  pp: Anything and Everything
+  sa: Shaved Bears
+  interest: I like the managing aspect of it and designing fundraising opportunities
+  team: manage
+
+- name: Enzo Florendo
+  grade: 10th
+  role: Management
+  fav: Cookies or Cream
+  major: Math or Science
+  pp: Tedious assignments
+  sa: Sloth
+  interest: I wanted to join a club that my friends would join that would still be fun.
+  team: manage
+
+- name: Eric Greisen
+  grade: 10th
+  role: Assistant to the Lead Manager
+  fav: Excuse me, I eat frozen yogurt because it is HEALTHIER
+  major: I want to major in college
+  pp: People who block the hallways when I'm trying to get to class
+  sa: Loch Ness monster
+  interest: It's fun and I'm learning stuff
+  team: manage
+
+- name: William Sauter
+  grade: 10th
+  role: Builder
+  fav: Vanilla Fudge
+  major: Applied Science
+  pp: Terrible Impresions
+  sa: Squirrel
+  interest: To get some practice for applied physics
+  team: build
+
+- name: Ann Dragt
+  grade: 10th
+  role: Management team leader
+  fav: Rocky Road
+  major: Some kind of science or technology
+  pp: Filing Nails
+  sa: Bird
+  interest: The amazing life skills that I acquire and become a team player
+  team: manage
+
+- name: Steven Whitwell
+  grade: 9th
+  role: Website
+  fav: Cookies n' Cream
+  major: Undecided
+  pp: Nails on a chalkboard
+  sa: Leopard
+  interest: Unknown
+  team: web
+
+- name: Hope Koonin
+  grade: 11th
+  role: Management
+  fav: Mint Choclate Chip
+  major: Some kind of engineering
+  pp: Modern Slang
+  sa: Snerp
+  interest: it’s pretty cool and I like the creativity and opportunity to build new things.
+  team: manage
+
+- name: Slayden Fernandes
+  grade: 10th
+  role: Management
+  fav: Spam
+  major: Dead Memes
+  pp: Taylor Swift
+  sa: Enzo
+  interest: I love building relations and robots, also spending time with my friends is a plus.
+  team:
+    - manage
+    - program
+
+- name: Devin Peterson
+  grade: 10th
+  role: Builder
+  fav: Choclate
+  major: Undecided
+  pp: Scantron Tests
+  sa: Shark
+  interest: To build cool stuff
+  team: build
+
+- name: Joe Cliatt
+  grade: 9th
+  role: Builder
+  fav: Mint Chip
+  major: Engineering
+  pp: People who state the obvious
+  sa: Tiger
+  interest: It gives me a chance to try engineering and I also get to hang out with my friends.
+  team: build
+
+- name: Alvin Solomon
+  grade: 11th
+  role: Management, Journal, YouTuber
+  fav: Cookies and Scream
+  major: Undecided
+  pp: People who act like they know what they're doing, but they don't.
+  sa: Chipmunk
+  interest: Because of the rush one gets when seeing your creation compete.
+  team:
+    - manage
+    - program
+
+- name: Lauryn Anderson
+  grade: 11th
+  role: Builder
+  fav: Cookie dough and Fudge
+  major: Astrophysics
+  pp: Personal invasions
+  sa: Sea turtle
+  interest: Taking it up a step from LEGOs and loves sci fi.
+  team: build
+
+- name: Josh Dragt
+  grade: 11th
+  role: Builder
+  fav: Choclate Chip Cookie Dough
+  major: Mechanical Engineering
+  pp: Slow Walkers
+  sa: Giraffe
+  interest: I like solving problems
+  team: build
+
+- name: Kenny Webb
+  grade: 9th
+  role: Programmer
+  fav: Mint Chocolate Chip
+  major: Undecided
+  pp: N/A
+  sa: Unknown
+  interest: It's really interesting
+  team: program
