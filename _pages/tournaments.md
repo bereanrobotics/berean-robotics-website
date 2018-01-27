@@ -2,8 +2,8 @@
 title: Tournaments
 permalink: /tournaments/
 layout: tournaments
-live: false
-tournament: Test
+live: true
+tournament: Berean
 next: 01/27/2018 9:00:00 AM
 ---
 <div class="column-wrapper">
