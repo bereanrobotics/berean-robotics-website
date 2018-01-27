@@ -9,111 +9,111 @@ teams:
  - rank: 11
    number: 13190
    name: Roblivion
-   qp: 2
-   rp: 78
-   plays: 2
+   qp: 4
+   rp: 233
+   plays: 4
 
- - rank: 4
+ - rank: 13
    number: 12962
    name: Zenith
-   qp: 4
-   rp: 184
-   plays: 2
-
- - rank: 6
-   number: 13757
-   name: AHS Robotics Club
    qp: 2
-   rp: 144
-   plays: 2
-
- - rank: 1
-   number: 12869
-   name: Voyager 6+
-   qp: 4
-   rp: 184
-   plays: 2
+   rp: 334
+   plays: 3
 
  - rank: 3
+   number: 13757
+   name: AHS Robotics Club
+   qp: 6
+   rp: 398
+   plays: 4
+
+ - rank: 2
+   number: 12869
+   name: Voyager 6+
+   qp: 6
+   rp: 399
+   plays: 4
+
+ - rank: 4
    number: 3470
    name: The Patriots
-   qp: 2
-   rp: 223
-   plays: 2
+   qp: 6
+   rp: 258
+   plays: 3
 
- - rank: 8
+ - rank: 12
    number: 6982
    name: Metal Magicians
    qp: 2
-   rp: 137
-   plays: 1
+   rp: 541
+   plays: 4
 
- - rank: 3
+ - rank: 6
    number: 10794
    name: Spaceballs
-   qp: 2
-   rp: 223
-   plays: 2
+   qp: 4
+   rp: 412
+   plays: 4
 
- - rank: 13
+ - rank: 15
    number: 6148
    name: Orange Pi Robotics
    qp: 0
-   rp: 263
-   plays: 2
-
- - rank: 10
-   number: 9914
-   name: Robowarriors
-   qp: 2
-   rp: 98
-   plays: 1
+   rp: 441
+   plays: 4
 
  - rank: 5
+   number: 9914
+   name: Robowarriors
+   qp: 4
+   rp: 536
+   plays: 4
+
+ - rank: 10
    number: 11232
    name: RoboRaptors 1
-   qp: 2
-   rp: 184
-   plays: 2
+   qp: 4
+   rp: 258
+   plays: 3
 
- - rank: 7
+ - rank: 8
    number: 4943
    name: RoboFusion
-   qp: 2
-   rp: 139
-   plays: 2
+   qp: 4
+   rp: 320
+   plays: 4
 
- - rank: 12
+ - rank: 1
    number: 13356
    name: Robo Tech Inc
-   qp: 2
-   rp: 53
-   plays: 1
+   qp: 8
+   rp: 406
+   plays: 4
 
- - rank: 14
+ - rank: 7
    number: 3873
    name: Scotbotics
-   qp: 0
-   rp: 224
-   plays: 2
+   qp: 4
+   rp: 379
+   plays: 4
 
- - rank: 9
+ - rank: 14
    number: 11643
    name: Hercules Robotics
    qp: 2
-   rp: 118
-   plays: 2
+   rp: 323
+   plays: 4
 
- - rank: 15
+ - rank: 16
    number: 12850
    name: TechnoStorms
    qp: 0
-   rp: 73
-   plays: 2
+   rp: 261
+   plays: 4
 
- - rank: 16
+ - rank: 9
    number: 13926
    name: RoboRaptors
-   qp: 0
-   rp: 53
-   plays: 1
+   qp: 4
+   rp: 301
+   plays: 3
