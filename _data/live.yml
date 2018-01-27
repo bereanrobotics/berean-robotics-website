@@ -6,58 +6,58 @@
   #   plays:
 
 teams:
- - rank: 2
+ - rank: 4
    number: 13190
+   name: Roblivion
+   qp: 2
+   rp: 58
+   plays: 1
+
+ - rank: 8
+   number: 12962
+   name: Zenith
+   qp: 0
+   rp: 58
+   plays: 1
+
+ - rank: 7
+   number: 13757
    name: AHS Robotics Club
+   qp: 0
+   rp: 58
+   plays: 1
+
+ - rank: 3
+   number: 12869
+   name: Voyager 6+
    qp: 2
    rp: 58
    plays: 1
 
  - rank: 1
-   number: 12869
-   name: Zenith
+   number: 3470
+   name: The Patriots
    qp: 2
-   rp: 58
+   rp: 137
    plays: 1
 
- - rank: 3
-   number: 13757
-   name: Roblivion
+ - rank: 2
+   number: 6982
+   name: Metal Magicians
+   qp: 2
+   rp: 137
+   plays: 1
+
+ - rank: 5
+   number: 10794
+   name: Spaceballs
    qp: 0
-   rp: 58
+   rp: 137
    plays: 1
 
- - rank: 4
-   number: 12869
-   name: Voyager 6+
+ - rank: 6
+   number: 6148
+   name: Orange Pi Robotics
    qp: 0
-   rp: 58
+   rp: 137
    plays: 1
-
- # - rank:
- #   number: 3470
- #   name: The Patriots
- #   qp:
- #   rp:
- #   plays:
-
- # - rank:
- #   number: 6982
- #   name: Metal Magicians
- #   qp:
- #   rp:
- #   plays:
-
- # - rank:
- #   number: 10794
- #   name: Spaceballs
- #   qp:
- #   rp:
- #   plays:
-
- # - rank:
- #   number: 6148
- #   name: Orange Pi Robotics
- #   qp:
- #   rp:
- #   plays:
