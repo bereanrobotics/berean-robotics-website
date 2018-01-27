@@ -42,12 +42,3 @@ permalink: /tournaments/google/
 		{% endfor %}
 	</div>
 </div>
-<script type="text/javascript">
-	
-	function ranks() {
-
-		document
-
-	}
-
-</script>
