@@ -2,7 +2,7 @@
 title: Tournaments
 permalink: /tournaments/
 layout: tournaments
-live: false
+live: true
 tournament: Napa
 next: 02/03/2018 11:15:00 AM
 ---
