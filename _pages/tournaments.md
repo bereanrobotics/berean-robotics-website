@@ -2,7 +2,7 @@
 title: Tournaments
 permalink: /tournaments/
 layout: tournaments
-live: true
+live: false
 tournament: Napa
 next: 02/03/2018 11:15:00 AM
 ---
@@ -59,8 +59,8 @@ next: 02/03/2018 11:15:00 AM
 
 	{% else  %}
 		<div class="column-wrapper centered">
-			<h4 id="next">The next tournament will be on: <b>{{ page.next }}</b></h4>
-<!-- 			<h4 id="next">The Berean Qualifying tournament is no longer live, the scores may be found below</h4> -->
+<!-- 			<h4 id="next">The next tournament will be on: <b>{{ page.next }}</b></h4> -->
+			<h4 id="next">The Berean Qualifying tournament is no longer live, the scores are being checked</h4>
 		</div>
 	{% endif %}
 <br>
