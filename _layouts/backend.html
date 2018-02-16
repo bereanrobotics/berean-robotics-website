@@ -3,8 +3,33 @@
 	<head>
 		<title>Backend</title>
 		{% include head.html %}
+		<script type="text/javascript">
+			
+			function pass() {
+
+				var pass = "eaglesrobot";
+				var enter = prompt("Password:");
+
+				if (enter == "") {
+
+					location.reload();
+
+				} else if (enter == pass) {
+
+					alert("Correct Password.");
+
+				} else {
+
+					alert("Inorrect Password, please try again.");
+					location.reload();
+
+				}
+
+			}
+
+		</script>
 	</head>
-	<body>
+	<body onload="pass()">
 		<div class="back-container">
 			{{ content }}
 		</div>

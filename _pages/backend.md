@@ -3,47 +3,10 @@ permalink: /hidden/backend/
 layout: backend
 ---
 
-<h1>THIS PAGE IS W.I.P.</h1>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <a href="/">Home</a>
 <br>
 <br>
-<form>
+<form action="/php/index.php" method="post">
 	Plays: <input name="play" type="text" placeholder="Plays">
 
 	Rank: <input name="rank" type="text" placeholder="Rank">
@@ -55,7 +18,7 @@ layout: backend
 	Team:<select id="clear" name="teams">
 
 		{% for team in site.data.live.teams %}
-			<option value="{{ team.name }}">{{ team.name }}</option>
+			<option name="{{ team.name }}">{{ team.number }} - {{ team.name }}</option>
 		{% endfor %}
 
 	</select>
@@ -70,7 +33,7 @@ layout: backend
 	<div id="team-show"></div>
 
 	<br><br>
-	<input type="button" onclick="sub()" value="Submit" class="button">
+	<input type="submit" value="Submit" class="button">
 </form>
 <script type="text/javascript">
 
@@ -78,7 +41,7 @@ layout: backend
 
 	function show() {
 
-		document.getElementById("team-show").innerHTML = "<input name='new' type='text' placeholder='Team Name'>";
+		document.getElementById("team-show").innerHTML = "<input name='newName' type='text' placeholder='Team Name'><input name='newNum' type='text' placeholder='Team Number'>";
 
 		select = "new";
 
@@ -88,19 +51,8 @@ layout: backend
 
 		document.getElementById("team-show").innerHTML = '';
 
-		select = "teams"
+		select = "teams";
 
 	}
-
-	function sub() {
-		var play = document.getElementsByName("play")[0].value;
-		var rank = document.getElementsByName("rank")[0].value;
-		var qp = document.getElementsByName("qp")[0].value;
-		var rp = document.getElementsByName("rp")[0].value;
-		var team = document.getElementsByName(select)[0].value;
-
-	}
-
-
 
 </script>
