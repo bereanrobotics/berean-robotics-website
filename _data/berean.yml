@@ -1,0 +1,119 @@
+  # - rank:
+  #   number:
+  #   name:
+  #   qp:
+  #   rp:
+  #   plays:
+
+teams:
+ - rank: 9
+   number: 13190
+   name: Roblivion
+   qp: 6
+   rp: 323
+   plays: 5
+
+ - rank: 12
+   number: 12962
+   name: Zenith
+   qp: 4
+   rp: 561
+   plays: 5
+
+ - rank: 3
+   number: 13757
+   name: AHS Robotics Club
+   qp: 8
+   rp: 471
+   plays: 5
+
+ - rank: 5
+   number: 12869
+   name: Voyager 6+
+   qp: 6
+   rp: 489
+   plays: 5
+
+ - rank: 8
+   number: 3470
+   name: The Patriots
+   qp: 6
+   rp: 405
+   plays: 5
+
+ - rank: 10
+   number: 6982
+   name: Metal Magicians
+   qp: 4
+   rp: 631
+   plays: 5
+
+ - rank: 4
+   number: 10794
+   name: Spaceballs
+   qp: 8
+   rp: 565
+   plays: 5
+
+ - rank: 15
+   number: 6148
+   name: Orange Pi Robotics
+   qp: 0
+   rp: 531
+   plays: 5
+
+ - rank: 11
+   number: 9914
+   name: Robowarriors
+   qp: 4
+   rp: 626
+   plays: 5
+
+ - rank: 13
+   number: 11232
+   name: RoboRaptors 1
+   qp: 4
+   rp: 422
+   plays: 5
+
+ - rank: 7
+   number: 4943
+   name: Robo-Fusion
+   qp: 6
+   rp: 410
+   plays: 5
+
+ - rank: 1
+   number: 13356
+   name: Robo Tech Inc
+   qp: 10
+   rp: 496
+   plays: 5
+
+ - rank: 6
+   number: 3873
+   name: Scotbotics
+   qp: 6
+   rp: 452
+   plays: 5
+
+ - rank: 14
+   number: 11643
+   name: Hercules Robotics
+   qp: 2
+   rp: 476
+   plays: 5
+
+ - rank: 16
+   number: 12850
+   name: TechnoStorms
+   qp: 0
+   rp: 334
+   plays: 5
+
+ - rank: 2
+   number: 13926
+   name: RoboRaptors 3
+   qp: 8
+   rp: 528
+   plays: 5

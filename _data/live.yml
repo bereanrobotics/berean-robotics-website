@@ -6,30 +6,114 @@
   #   plays:
 
 teams:
- - rank: 
-   number: 
-   name: 
-   qp: 
-   rp: 
-   plays: 
+  - rank: 9
+    number: 4998
+    name: Q
+    qp: 2
+    rp: 182
+    plays: 2
 
- - rank: 
-   number: 
-   name: 
-   qp: 
-   rp: 
-   plays: 
+  - rank: 16
+    number: 10150
+    name: AR Black Pearl
+    qp: 0
+    rp: 72
+    plays: 2
 
- - rank: 
-   number: 
-   name: 
-   qp: 
-   rp: 
-   plays: 
+  - rank: 15
+    number: 10461
+    name:
+    qp: 0
+    rp: 85
+    plays: 2
 
- - rank: 
-   number: 
-   name: 
-   qp: 
-   rp: 
-   plays: 
+  - rank: 1
+    number: 4345
+    name: AR Royal Fortune
+    qp: 6
+    rp: 194
+    plays: 3
+
+  - rank: 6
+    number: 7303
+    name: 
+    qp: 2
+    rp: 260
+    plays: 3
+
+  - rank: 8
+    number: 10148
+    name: 
+    qp: 2
+    rp: 230
+    plays: 3
+
+  - rank: 3
+    number: 5220
+    name: Roboknights
+    qp: 4
+    rp: 248
+    plays: 2
+
+  - rank: 11
+    number: 11475
+    name: Teravoltz
+    qp: 2
+    rp: 121
+    plays: 2
+
+  - rank: 10
+    number: 13162
+    name: 
+    qp: 2
+    rp: 158
+    plays: 2
+
+  - rank: 13
+    number: 13971
+    name: 
+    qp: 0
+    rp: 219
+    plays: 2
+
+  - rank: 2
+    number: 8804
+    name: 
+    qp: 4
+    rp: 285
+    plays: 2
+
+  - rank: 4
+    number: 9784
+    name: 
+    qp: 4
+    rp: 285
+    plays: 2
+
+  - rank: 7
+    number: 12635
+    name: Kuriofsity Robotics
+    qp: 2
+    rp: 231
+    plays: 2
+
+  - rank: 5
+    number: 4475
+    name: 
+    qp: 4
+    rp: 104
+    plays: 3
+
+  - rank: 12
+    number: 12454
+    name: 
+    qp: 2
+    rp: 91
+    plays: 2
+
+  - rank: 14
+    number: 9578
+    name: 
+    qp: 0
+    rp: 91
+    plays: 2

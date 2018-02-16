@@ -3,8 +3,8 @@ title: Tournaments
 permalink: /tournaments/
 layout: tournaments
 live: false
-tournament: Berean
-next: 01/27/2018 9:00:00 AM
+tournament: Napa
+next: 02/03/2018 11:15:00 AM
 ---
 <div class="column-wrapper">
 	This page Is where you will find the tournaments, there will be live scores and rankings during a tournament. You can also view previous scores below.
@@ -59,7 +59,8 @@ next: 01/27/2018 9:00:00 AM
 
 	{% else  %}
 		<div class="column-wrapper centered">
-			<h4 id="next">The next tournament will be on: <b>{{ page.next }}</b></h4>
+<!-- 			<h4 id="next">The next tournament will be on: <b>{{ page.next }}</b></h4> -->
+			<h4 id="next">The Berean Qualifying tournament is no longer live, the scores are being checked</h4>
 		</div>
 	{% endif %}
 <br>
