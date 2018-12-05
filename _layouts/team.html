@@ -14,8 +14,8 @@ layout: default
 		<div class="large-6 shrink cell">
 			{% include slideshow.html %}
 		</div>
-		{% for person in site.data.people.persons %}
-			{% if person.team contains page.base %}
+		{% assign people = site.data.people.persons | sort: "name" %}
+		{% for person in people %}
 				<div class="large-6 shrink cell">
 					<div class="team-image">
 						<img src="/images/{{ page.base }}/{{ person.name }}.jpg">
@@ -41,13 +41,11 @@ layout: default
 						<div class="team-bio">
 							<h3>{{ person.name }}</h3>
 							<br>
+							<p>What do you do in robotics? <strong>{{ person.role }}</strong></p>
 							<p>What grade are you in? <strong>{{ person.grade }}</strong></p>
-							<p>What is your role in robotics? <strong>{{ person.role }}</strong></p>
-							<p>What is your favorite ice cream? <strong>{{ person.fav }}</strong></p>
-							<p>What would you like to major in? <strong>{{ person.major }}</strong></p>
-							<p>What is your biggest pet peeve? <strong>{{ person.pp }}</strong></p>
-							<p>What is your spirit animal? <strong>{{ person.sa }}</strong></p>
-							<p>Why are you intrested in robotics? <strong>{{ person.interest }}</strong></p>
+							<p>What is your favorite word starting with a Q? <strong>{{ person.fav }}</strong></p>
+							<p>If you could change your name to anything what would it be? <strong>{{ person.nn }}</strong></p>
+							<p>Your best quote? <strong>{{ person.quote }}</strong></p>
 
 							<style type="text/css">
 								
@@ -63,7 +61,6 @@ layout: default
 						</div>
 					</div>
 				</div>
-			{% endif %}
 		{% endfor %}
 	</div>
 </div>

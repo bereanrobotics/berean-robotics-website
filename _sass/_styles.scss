@@ -1,21 +1,43 @@
-html,body{
+html, body{
 
     height: 100%
 
 }
 
 #yTPlay {
+
 	width: 2.5rem;
 	height: 1.5rem;
+  display: inline-block;
+
+}
+
+#adobe {
+
+  padding-left: .5rem;
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+  float: right;
+  padding-left: 1rem;
+
 }
 
 #footer {
 
+  margin-top: 1rem;
+  position: absolute;
 	background: #042a68;
 	color: white;
 	padding: 1rem;
-	right: 0;
-	left: 0;
+  float: left;
+  right: 0;
+  left: 0;
+  p, img {
+    display: inline-block;
+  }
+  p {
+    padding-right: 1rem;
+  }
 
 }
 
@@ -32,6 +54,13 @@ html,body{
 	a:visited {color: white;}
 	text-decoration: none;
 	a:hover {color: white;}
+
+}
+
+.dropdown {
+
+  background: #042a68;
+
 }
 
 .top-bar-left {
@@ -43,7 +72,10 @@ html,body{
 
 .top-bar-right {
 
-	ul, li, a {background: #042a68}
+  background: inherit;
+	ul, li, a {
+    background: #042a68
+  }
 
 }
 
@@ -177,3 +209,14 @@ Credit to http://livetools.uiparade.com/button-builder.html# Button Builder
 /*
 End Credit 
 */
+
+.footer-sponsors {
+
+  background: #042a68;
+  color: white;
+  padding-right: 1rem;
+  float: right;
+  text-align: right;
+  display: inline-block;
+
+}
