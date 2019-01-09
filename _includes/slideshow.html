@@ -7,14 +7,14 @@
     <ul class="orbit-container">
       <li class="is-active orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image" src="/images/{{ page.base }}/0pic.jpg" alt="Berean Team Picture">
+          <img class="orbit-image" src="/images/{{ page.base }}/0pic.jpg" alt="Picture">
         </figure>
       </li>
       {% for image in site.static_files %}
         {% if image.path contains page.path %}
           <li class="orbit-slide">
             <figure class="orbit-figure">
-              <img class="orbit-image" src="{{ image.path }}" alt="Berean Team Picture">
+              <img class="orbit-image" src="{{ image.path }}" alt="Picture">
             </figure>
           </li>
         {% endif %}
