@@ -1,1 +1,0 @@
-function sub(){document.getElementsByName("qp")[0].value;var e=document.getElementsByName("rank")[0].value;document.getElementsByName("rp")[0].value,document.getElementsByName("plays")[0].value;alert(e)}

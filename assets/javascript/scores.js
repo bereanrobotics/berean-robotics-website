@@ -1,1 +1,0 @@
-function ranks(){}function score(){}

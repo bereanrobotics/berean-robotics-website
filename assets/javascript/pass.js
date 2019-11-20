@@ -1,1 +1,0 @@
-function pass(){var a=0,e="eaglesrobot",r=prompt("Password:");3==a&&(alert("3 failed attempts"),setTimeout(e(),3e3)),null==r?e():r==e?alert("Correct Password."):(alert("Inorrect Password, please try again."),a+=1,e())}
