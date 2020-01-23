@@ -42,14 +42,15 @@ gulp.task('javascript', function() {
 
 });
 
-gulp.task('sass', () => {
-  return gulp.src(sassFiles)
+gulp.task('sass', (done) => {
+  gulp.src(sassFiles)
     .pipe(sass({
       includePaths: sassPaths,
       outputStyle: 'compressed'
     }).on('error', $.sass.logError))
     // .pipe(concat('all.css'))
     .pipe(gulp.dest('assets/css'));
+  done();
 });
 
 gulp.task('jekyll', (done) => {
