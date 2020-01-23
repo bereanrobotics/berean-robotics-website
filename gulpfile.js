@@ -35,14 +35,15 @@ gulp.task('javascript', function() {
     .pipe(uglify())
     .pipe(gulp.dest('assets/javascript'));
 
-  gulp.src(foundationJsFiles)
+  return gulp.src(foundationJsFiles)
     .pipe(concat('foundation.js'))
     .pipe(uglify())
     .pipe(gulp.dest('assets/javascript'));
+
 });
 
 gulp.task('sass', () => {
-  gulp.src(sassFiles)
+  return gulp.src(sassFiles)
     .pipe(sass({
       includePaths: sassPaths,
       outputStyle: 'compressed'
@@ -51,7 +52,7 @@ gulp.task('sass', () => {
     .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('jekyll', () => {
+gulp.task('jekyll', (done) => {
   const jekyll = bundledGemSpawn('jekyll', ['build',
     '--watch',
     '--incremental',
@@ -66,6 +67,7 @@ gulp.task('jekyll', () => {
 
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
+  done();
 });
 
 gulp.task('serve', () => {
@@ -77,8 +79,8 @@ gulp.task('serve', () => {
     }
   });
 
-  gulp.watch(sassFiles, ['sass']);
-  gulp.watch(jsFiles, ['javascript']);
+  gulp.watch(sassFiles, gulp.series(['sass']));
+  gulp.watch(jsFiles, gulp.series(['javascript']));
 });
 
-gulp.task('default', ['sass', 'javascript', 'jekyll', 'serve']);
+gulp.task('default', gulp.series(['sass', 'javascript', 'jekyll', 'serve']));
