@@ -25,7 +25,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "foundation-sites": "^6.5.1",
+    "foundation-sites": "^6.6.1",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.0.1",
     "js-yaml": "^3.12.0",
