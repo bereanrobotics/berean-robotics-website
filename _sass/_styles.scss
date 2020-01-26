@@ -1,18 +1,12 @@
 $gold: #c6b695;
 
-@mixin center {
-  margin: 0 auto;
-  display: block;
+body {
+  width: 100vw;
+  height: auto;
 }
 
-@mixin border {
-  border: 1px solid black;
-}
-
-#logo-wrapper {
-  @include border;
-  background-color: black;
+#image-wrapper {
   img {
-    @include center;
+    width: 150%;
   }
 }

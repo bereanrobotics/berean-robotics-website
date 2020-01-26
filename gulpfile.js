@@ -35,14 +35,13 @@ gulp.task('javascript', function() {
     .pipe(uglify())
     .pipe(gulp.dest('assets/javascript'));
 
-  return gulp.src(foundationJsFiles)
+  gulp.src(foundationJsFiles)
     .pipe(concat('foundation.js'))
     .pipe(uglify())
     .pipe(gulp.dest('assets/javascript'));
-
 });
 
-gulp.task('sass', (done) => {
+gulp.task('sass', () => {
   gulp.src(sassFiles)
     .pipe(sass({
       includePaths: sassPaths,
@@ -50,10 +49,9 @@ gulp.task('sass', (done) => {
     }).on('error', $.sass.logError))
     // .pipe(concat('all.css'))
     .pipe(gulp.dest('assets/css'));
-  done();
 });
 
-gulp.task('jekyll', (done) => {
+gulp.task('jekyll', () => {
   const jekyll = bundledGemSpawn('jekyll', ['build',
     '--watch',
     '--incremental',
@@ -68,7 +66,6 @@ gulp.task('jekyll', (done) => {
 
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
-  done();
 });
 
 gulp.task('serve', () => {
@@ -80,8 +77,8 @@ gulp.task('serve', () => {
     }
   });
 
-  gulp.watch(sassFiles, gulp.series(['sass']));
-  gulp.watch(jsFiles, gulp.series(['javascript']));
+  gulp.watch(sassFiles, ['sass']);
+  gulp.watch(jsFiles, ['javascript']);
 });
 
-gulp.task('default', gulp.series(['sass', 'javascript', 'jekyll', 'serve']));
+gulp.task('default', ['sass', 'javascript', 'jekyll', 'serve']);
