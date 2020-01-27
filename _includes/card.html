@@ -1,7 +1,7 @@
 <div class="card">
   <h1 data-aos="zoom-out">{{ name }}</h1>
-  {% if type == "image-left-text-right" %}
-    <div class="grid-x">
+  <div class="grid-x">
+    {% if type == "image-left-text-right" %}
       <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-right">
         <div class="card-item xy-center">
           <img src="{{ image }}" alt="image">
@@ -9,9 +9,26 @@
       </div>
       <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-left">
         <div class="card-item xy-center">
-          <p>{{ text }}</p>
+          <p class="indent">{{ text }}</p>
+          {% if include-link %}
+            <a href="{{ link }}"><button class="link-button">{{ link-text }} <i class="arrow"></i></button></a>
+          {% endif %}
         </div>
       </div>
-    </div>
-  {% endif %}
+    {% elsif type == "text-left-image-right" %}
+      <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-right">
+        <div class="card-item xy-center">
+          <p class="indent">{{ text }}</p>
+          {% if include-link %}
+            <a href="{{ link }}"><button class="link-button">{{ link-text }} <i class="arrow"></i></button></a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-left">
+        <div class="card-item xy-center">
+          <img src="{{ image }}" alt="image">
+        </div>
+      </div>
+    {% endif %}
+  </div>
 </div>
