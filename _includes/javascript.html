@@ -5,3 +5,13 @@
 <script type="text/javascript">
   AOS.init();
 </script>
+<script type="text/javascript">
+  //Disable double click on ios
+  $(document).ready(function() {
+    $('#dropdown-text').children('a').on('click touchend', function(e){
+      var el = $(this);
+      var link = el.attr('href');
+      window.location = link;
+    });
+});
+</script>

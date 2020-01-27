@@ -1,0 +1,21 @@
+<header>
+  <img src="/images/header-logo.png" alt="Logo">
+  <div id="right-items">
+    {% for link in site.data.header.links %}
+      <div class="right-item-medium-and-up" data-aos="fade-left">
+        <a href="{{ link.link }}">{{ link.display }}</a>
+      </div>
+    {% endfor %}
+    <ul class="right-item-small-only">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="has-submenu">
+          <a href="#0" id="dropdown-text" data-aos="fade-left">Links</a>
+            <ul class="submenu menu vertical" data-subbmenu>
+              {% for link in site.data.header.links %}
+                <li><a href="{{ link.link }}">{{ link.display }}</a></li>
+              {% endfor %}
+            </ul>
+        </li>
+      </ul>
+  </div>
+</header>

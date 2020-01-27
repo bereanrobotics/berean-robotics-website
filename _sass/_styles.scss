@@ -19,6 +19,61 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ececec",GradientType=1);
 }
 
+header {
+  position: fixed;
+  background: #fff;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  z-index: 1;
+  height: 60px;
+  width: 100vw;
+  padding: 10px;
+  a {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    color: $gold;
+    &:visited {
+      color: $gold;
+      text-decoration: none;
+    }
+  }
+  img {
+    height: 40px;
+    width: auto;
+    @include horizontal-center;
+  }
+  #dropdown-text {
+    li {
+      @include horizontal-center;
+    }
+  }
+  #right-items {
+    float: right;
+    @media screen and (min-width: 40em) {
+      @include center-vertical;
+    }
+    padding-right: 3vw;
+    position: relative;
+    .right-item-medium-and-up {
+      display: inline-block;
+      padding-left: 1vw;
+      @media screen and (max-width: 39.9375em) {
+        display: none;
+      }
+    }
+    .right-item-small-only {
+      @media screen and (min-width: 40em) {
+        display: none;
+      }
+    }
+    .drop-down-menu {
+      position: relative;
+      display: none;
+    }
+  }
+}
+
 footer {
   background: #fff;
   height: 60px;
@@ -46,7 +101,6 @@ footer {
 }
 
 .card {
-  border: 1;
   padding: 5px;
   padding-bottom: 2em;
   margin-bottom: 10px;
@@ -73,7 +127,7 @@ footer {
   	background-color: transparent;
   	-webkit-border-radius: 2px;
   	-moz-border-radius: 2px;
-  	border-radius: 2px;
+  	border-radius: 5px;
   	border: 1px solid #000;
   	display: inline-block;
   	cursor: pointer;
@@ -100,6 +154,16 @@ footer {
   .arrow {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+  }
+}
+
+.bar-container {
+  @include center-vertical;
+  .bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
   }
 }
 
