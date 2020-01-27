@@ -1,13 +1,6 @@
-$gold: #9F9255;
+@import 'util/mixins';
 
-@mixin center-both {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+$gold: #9F9255;
 
 html, body {
   width: 100vw;
@@ -26,7 +19,7 @@ footer {
   width: 100vw;
   position: relative;
   p {
-    @include center-both;
+    @include absolute-center;
   }
 }
 
@@ -37,7 +30,7 @@ footer {
   img {
     width: 40vw;
     height: auto;
-    @include center-both;
+    @include absolute-center;
   }
 }
 
@@ -57,5 +50,10 @@ footer {
   }
   .card-item {
     margin-bottom: 5px;
+    padding: 2em;
+    position: relative;
+    .item-wrapper {
+      @include vertical-center;
+    }
   }
 }
