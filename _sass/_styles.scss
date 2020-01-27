@@ -1,5 +1,11 @@
 @import 'util/mixins';
 
+@mixin center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 $gold: #9F9255;
 
 html, body {
@@ -48,12 +54,12 @@ footer {
   h1 {
     color: $gold;
   }
+  p {
+    text-align: left;
+  }
   .card-item {
     margin-bottom: 5px;
     padding: 2em;
-    position: relative;
-    .item-wrapper {
-      @include vertical-center;
-    }
+    @include center-vertical;
   }
 }
