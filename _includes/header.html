@@ -7,9 +7,9 @@
       </div>
     {% endfor %}
     <ul class="right-item-small-only">
-      <ul class="dropdown menu" data-dropdown-menu>
+      <ul data-aos="fade-left" class="dropdown menu" data-dropdown-menu>
         <li class="has-submenu">
-          <a href="#0" id="dropdown-text" data-aos="fade-left">Links</a>
+          <a href="#0" id="dropdown-text">Links</a>
             <ul class="submenu menu vertical" data-subbmenu>
               {% for link in site.data.header.links %}
                 <li><a href="{{ link.link }}">{{ link.display }}</a></li>

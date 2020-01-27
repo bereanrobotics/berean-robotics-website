@@ -3,3 +3,16 @@ layout: default
 title: Team
 permalink: /team/
 ---
+<div id="team-title-wrapper" data-aos="fade-in" data-aos-duration="1000">
+  <h1 id="team-title">Our Team</h1>
+</div>
+<div class="twelve columns text-center">
+  <div id="main-content">
+    {% for person in site.data.team.people %}
+      {% assign name = person.name %}
+      {% assign image = person.image %}
+      {% assign answers = person.answers %}
+      {% include team-card.html %}
+    {% endfor %}
+  </div>
+</div>

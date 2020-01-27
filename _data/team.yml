@@ -1,0 +1,13 @@
+questions:
+  - Why do you exist?
+  - What is the meaning of life?
+  - Why am I doing this?
+  - What questions do you ask people for robotics?
+people:
+  - name: John Smith
+    image: /images/placeholder.png
+    answers:
+      - I don't
+      - Nothing
+      - IDK
+      - No.

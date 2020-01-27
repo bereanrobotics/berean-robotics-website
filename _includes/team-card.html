@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="grid-x">
+    <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-right">
+      <div class="card-item xy-center">
+        <img class="person-image" src="{{ image }}" alt="image">
+      </div>
+    </div>
+    <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-left">
+      <div class="card-item xy-center">
+        <h1>{{ name }}</h1>
+        <div class="questions">
+          {% assign size = site.data.team.questions.size %}
+          {% for i in (0..size) %}
+            <b>{{ site.data.team.questions[i] }}</b><p>&nbsp;{{ answers[i] }}</p><br>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
