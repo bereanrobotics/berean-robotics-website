@@ -2,7 +2,19 @@
 layout: default
 title: Home
 permalink: /
+t: F
 ---
 <div id="logo-wrapper" class="twelve columns text-center">
   <img src="/images/logo.png" alt="Logo">
+</div>
+<div class="twelve columns text-center">
+  <div id="main-content">
+    {% for card in site.data.home.cards %}
+      {% assign name = card.card-name%}
+      {% assign type = card.card-type%}
+      {% assign image = card.card-image-path%}
+      {% assign text = card.card-text%}
+      {% include card.html %}
+    {% endfor %}
+  </div>
 </div>

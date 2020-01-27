@@ -1,0 +1,18 @@
+<div class="card">
+  <h1>{{ name }}</h1>
+  {% if type == "image-left-text-right" %}
+    <div class="grid-x">
+      <div class="large-6 shrink cell">
+        <div class="card-item">
+          <img src="{{ image }}" alt="image">
+        </div>
+
+      </div>
+      <div class="large-6 shrink cell">
+        <div class="card-item">
+          <p>{{ text }}</p>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</div>

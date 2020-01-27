@@ -1,0 +1,5 @@
+cards:
+  - card-name: Testing
+    card-type: image-left-text-right
+    card-image-path: /images/logo.png
+    card-text: Random thing
