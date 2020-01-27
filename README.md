@@ -68,9 +68,10 @@ The following is a quick review of all of the technologies used to build this we
 - JavaScript
 - YAML
 
-### Frameworks
+### Frameworks/Libraries
 
 - [Foundation for Sites](https://foundation.zurb.com/sites/) by Zurb
+- [Animate on Scroll](https://michalsnik.github.io/aos/) by Michalsnik
 
 ### Build Tools
 

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(".card").each(function(){$(this).offset().top+$(this).outerHeight()<$(window).scrollTop()+$(window).height()&&$(this).animate({opacity:1},500)})})});

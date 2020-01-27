@@ -1,13 +1,13 @@
 <div class="card">
-  <h1>{{ name }}</h1>
+  <h1 data-aos="zoom-out">{{ name }}</h1>
   {% if type == "image-left-text-right" %}
     <div class="grid-x">
-      <div class="large-6 medium-6 small-12 shrink cell">
+      <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-right">
         <div class="card-item .xy-center">
           <img src="{{ image }}" alt="image">
         </div>
       </div>
-      <div class="large-6 medium-6 small-12 shrink cell">
+      <div class="large-6 medium-6 small-12 shrink cell" data-aos="fade-left">
         <div class="card-item .xy-center">
           <p>{{ text }}</p>
         </div>
