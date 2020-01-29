@@ -11,6 +11,9 @@
         <div class="questions">
           {% assign size = site.data.team.questions.size %}
           {% for i in (0..size) %}
+            {% if answers[i] == "" %}
+              {% continue %}
+            {% endif %}
             <b>{{ site.data.team.questions[i] }}</b><p>&nbsp;{{ answers[i] }}</p><br>
           {% endfor %}
         </div>

@@ -1,13 +1,111 @@
 questions:
-  - Why do you exist?
-  - What is the meaning of life?
-  - Why am I doing this?
-  - What questions do you ask people for robotics?
+  - "Role:"
+  - "Grade:"
+  - "Years in robotics:"
+  - "Favorite part of robotics:"
+  - "Favorite quote:"
 people:
-  - name: John Smith
+  - name: Hayden Alwan
     image: /images/placeholder.png
     answers:
-      - I don't
-      - Nothing
-      - IDK
-      - No.
+      - Builder.
+      - Senior.
+      - "1."
+      - The people.
+      - '"I need your quote" - Natilie Neypes.'
+  - name: Slayden Fernandes
+    image: /images/placeholder.png
+    answers:
+      - Senior captain, on-field coach
+      - Senior.
+      - "3."
+      - Competing.
+      - '“TrashCAN, not trash cannot”'
+  - name: Enzo Florendo
+    image: /images/placeholder.png
+    answers:
+      - Builder.
+      - Senior.
+      - "3."
+      - How close the team is.
+      - '“I’ll figure it out”'
+  - name: Erik Greisen
+    image: /images/placeholder.png
+    answers:
+      - Senior captain.
+      - Senior.
+      - "3."
+      - Community.
+      - '“If we don’t study the mistakes of the future, we’re doomed to repeat them for the first time” - Ken M.'
+  - name: Luke Heralla
+    image: /images/placeholder.png
+    answers:
+      - Builder.
+      - Senior.
+      - "1."
+      - Community.
+      - '“T oday I l earned to ke r n”'
+  - name: Connor Howard
+    image: /images/placeholder.png
+    answers:
+      - Computer design specialist.
+      - Senior.
+      - "1."
+      - The teamwork.
+      - '“What is now proved was once only imagined.”'
+  - name: Owen Peterson
+    image: /images/placeholder.png
+    answers:
+      - Programmer.
+      - Senior.
+      - "2."
+      - Solving a problem.
+      - '“Murphy is always watching”'
+  - name: Casey Rittenhouse
+    image: /images/placeholder.png
+    answers:
+      - Senior captain, gunner/builder.
+      - Senior.
+      - "2."
+      - Snacks.
+      - '“I’ve never been a quitter” - Richard Nixon'
+  - name: William Sauter
+    image: /images/placeholder.png
+    answers:
+      - Builder.
+      - Senior.
+      - "3."
+      - The freedom to be creative.
+      - '“The best way to predict the future is to invent it” - Alan K'
+  - name: Arkin Solomon
+    image: /images/placeholder.png
+    answers:
+      - Programmer.
+      - Senior.
+      - "3."
+      - Learning new things about programming
+      - '“I don’t worry about what people think of me because no one thinks about me” - Reddit'
+  - name: Natalie Neypes
+    image: /images/placeholder.png
+    answers:
+      - Builder.
+      - Sophmore.
+      - "1."
+      - Being able to advance my robotics skills
+      - '“I don’t know yet”'
+  - name: Sandra Hollenbeck
+    image: /images/placeholder.png
+    answers:
+      - Coach.
+      - ""
+      - "8."
+      - The students
+      - '“Aim high"'
+  - name: Gavin Peackock
+    image: /images/placeholder.png
+    answers:
+      - Head coach.
+      - ""
+      - "8."
+      - Working with the students
+      - ""
