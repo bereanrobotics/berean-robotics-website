@@ -8,9 +8,13 @@
 
 $gold: #9F9255;
 
+* { font-family: 'Nunito' !important;}
+
 body {
+
   width: 100vw;
   height: auto;
+  overflow-x: hidden;
   position: absolute;
   background: rgb(255,255,255);
   background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 25%, rgba(236,236,236,1) 100%);
@@ -138,7 +142,6 @@ footer {
   	display: inline-block;
   	cursor: pointer;
   	color: #000;
-  	font-family: Arial;
   	font-size: 15px;
   	font-weight: bold;
   	padding: 7px 24px;
@@ -170,11 +173,16 @@ footer {
   h1 {
     color: $gold;
   }
-}
-
-.person-image {
-  max-width: 230px;
-  border-radius: 50%;
+  .person-image-wrapper {
+    display: inline-block;
+    border-radius: 50px;
+    img {
+      border-radius: 50%;
+      display: block;
+      max-width: 230px;
+      height: auto;
+    }
+  }
 }
 
 .questions {

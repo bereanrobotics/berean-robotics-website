@@ -6,15 +6,15 @@ questions:
   - "Favorite quote:"
 people:
   - name: Hayden Alwan
-    image: /images/placeholder.png
+    image: /images/people/hayden.jpg
     answers:
       - Builder.
       - Senior.
       - "1."
       - The people.
-      - '"I need your quote" - Natilie Neypes.'
+      - '"I need your quote" - Natalie Neypes.'
   - name: Slayden Fernandes
-    image: /images/placeholder.png
+    image: /images/people/slayden.jpg
     answers:
       - Senior captain, on-field coach
       - Senior.
@@ -22,7 +22,7 @@ people:
       - Competing.
       - '“TrashCAN, not trash cannot”'
   - name: Enzo Florendo
-    image: /images/placeholder.png
+    image: /images/people/enzo.jpg
     answers:
       - Builder.
       - Senior.
@@ -30,7 +30,7 @@ people:
       - How close the team is.
       - '“I’ll figure it out”'
   - name: Erik Greisen
-    image: /images/placeholder.png
+    image: /images/people/erik.jpg
     answers:
       - Senior captain.
       - Senior.
@@ -38,7 +38,7 @@ people:
       - Community.
       - '“If we don’t study the mistakes of the future, we’re doomed to repeat them for the first time” - Ken M.'
   - name: Luke Heralla
-    image: /images/placeholder.png
+    image: /images/people/luke.jpg
     answers:
       - Builder.
       - Senior.
@@ -46,7 +46,7 @@ people:
       - Community.
       - '“T oday I l earned to ke r n”'
   - name: Connor Howard
-    image: /images/placeholder.png
+    image: /images/people/connor.jpg
     answers:
       - Computer design specialist.
       - Senior.
@@ -54,7 +54,7 @@ people:
       - The teamwork.
       - '“What is now proved was once only imagined.”'
   - name: Owen Peterson
-    image: /images/placeholder.png
+    image: /images/people/owon.jpg
     answers:
       - Programmer.
       - Senior.
@@ -62,7 +62,7 @@ people:
       - Solving a problem.
       - '“Murphy is always watching”'
   - name: Casey Rittenhouse
-    image: /images/placeholder.png
+    image: /images/people/casey.jpg
     answers:
       - Senior captain, gunner/builder.
       - Senior.
@@ -70,7 +70,7 @@ people:
       - Snacks.
       - '“I’ve never been a quitter” - Richard Nixon'
   - name: William Sauter
-    image: /images/placeholder.png
+    image: /images/people/will.jpg
     answers:
       - Builder.
       - Senior.
@@ -78,7 +78,7 @@ people:
       - The freedom to be creative.
       - '“The best way to predict the future is to invent it” - Alan K'
   - name: Arkin Solomon
-    image: /images/placeholder.png
+    image: /images/people/arkin.jpg
     answers:
       - Programmer.
       - Senior.
@@ -86,7 +86,7 @@ people:
       - Learning new things about programming
       - '“I don’t worry about what people think of me because no one thinks about me” - Reddit'
   - name: Natalie Neypes
-    image: /images/placeholder.png
+    image: /images/people/natalie.jpg
     answers:
       - Builder.
       - Sophmore.
@@ -94,7 +94,7 @@ people:
       - Being able to advance my robotics skills
       - '“I don’t know yet”'
   - name: Sandra Hollenbeck
-    image: /images/placeholder.png
+    image: /images/people/sandy.jpg
     answers:
       - Coach.
       - ""
@@ -102,7 +102,7 @@ people:
       - The students
       - '“Aim high"'
   - name: Gavin Peackock
-    image: /images/placeholder.png
+    image: /images/people/gavin.jpg
     answers:
       - Head coach.
       - ""

@@ -9,8 +9,18 @@ permalink: /team/
 <div class="twelve columns text-center">
   <div id="main-content">
     {% for person in site.data.team.people %}
+      {% for static_file in site.static_files %}
+        {% if static_file.path == person.image %}
+          {% assign found = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if found %}
+        {% assign image = person.image %}
+      {% else %}
+        {% assign image = '/images/placeholder.png' %}
+      {% endif %}
       {% assign name = person.name %}
-      {% assign image = person.image %}
       {% assign answers = person.answers %}
       {% include team-card.html %}
     {% endfor %}
