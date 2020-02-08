@@ -4,19 +4,29 @@ cards:
     include-link: true
     link: /team
     link-text: Check out our team
-    card-image-path: /images/team.jpeg
-    card-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  - card-name: Our Sponsor
+    card-image-path: /images/team.jpg
+    card-text: 'Berean Christian Robotics currently participates in the First Tech Challenge Robotics league. Our team number is #4998, codename SPQR—Senātus Populusque Rōboticus. Our team strives to achieve FTC’ motto—gracious professionalism. Our current captains are Casey Rittenhouse, Erik Greisen, and Slayden Fernandes.'
+  - card-name: Our Robot
     card-type: text-left-image-right
     include-link: true
-    link: https://www.adobe.com/
-    link-text: Check out their site
-    card-image-path: /images/adobe.png
-    card-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    link: https://github.com/ArkinSolomon/SPQR
+    link-text: Take a look at our code
+    card-image-path: /images/our-robot.jpg
+    card-text: Since the beginning of the school year, the competitive team has been diligently working to build and program a robot that will gain points during this year’s Skystone tournament. The robot features an arm to pick up blocks, another smaller arm to tow the base to the building site, and various other features.
+  - card-name: Sustainability
+    card-type: image-left-text-right
+    include-link: false
+    card-image-path: /images/sustainablility.jpg
+    card-text: Out of the four robotics teams at Berean Christian, three of the four teams are intramural teams which consist of three to four robotics team members guided by one experienced competitive team member. In this matter, the novice intramural team members gain valuable knowledge about different aspects of robotics including building and programming. In this image they can be seen applying their skills in a competition with the competitive team.
+  - card-name: Outreach
+    card-type: text-left-image-right
+    include-link: false
+    card-image-path: /images/outreach.png
+    card-text: The Berean Christian Robotics Team focuses on outreach as a way to educate the public about robotics. One of their more recent events was the Boy Scouts Robotics Merit Badge Workday. At the Boy Scouts Robotics Merit Badge Workday, Boy Scouts Troop 93 came to Berean in order to earn their Robotics Merit Badge. During the workday, the Boy Scouts built and programmed robots; but, they were first taught about the benefits about robotics and numerous career pathways. By the end of the workday, the Boy Scouts had fully functioning robots.
   - card-name: Our School
     card-type: image-left-text-right
     include-link: true
     link: https://www.bereanchristian.com/
     link-text: Go to our school
     card-image-path: /images/berean.png
-    card-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    card-text: '"At Berean Christian, we support the efforts of the Church and the home to develop lifetime followers of Jesus Christ. We accomplish this divine task by grounding everything we do, from our elite academics and athletics to our diverse selection of clubs and performing arts, within the framework of the Christian worldview. It is this worldview which enables our students to have a successful high school experience and to transform the places God calls them to throughout their lives."<br><center>-- Nicholas Harris, Principal of Berean Christian High School.</center>'

@@ -13,8 +13,8 @@ permalink: /
       {% assign type = card.card-type %}
       {% assign image = card.card-image-path %}
       {% assign text = card.card-text %}
+      {% assign include-link = card.include-link %}
       {% if card.include-link %}
-        {% assign include-link = card.include-link %}
         {% assign link = card.link %}
         {% assign link-text = card.link-text %}
       {% endif %}
