@@ -2,110 +2,94 @@ questions:
   - "Role:"
   - "Grade:"
   - "Years in robotics:"
-  - "Favorite part of robotics:"
-  - "Favorite quote:"
+  - "What are you looking forward to this year in Ultimate Goal:"
+  - "What is your favorite animal:"
 people:
-  - name: Hayden Alwan
+  - name: Heejoon Shin
     image: /images/people/hayden.jpg
     answers:
-      - Builder.
-      - Senior.
-      - "1."
-      - The people.
-      - '"I need your quote" - Natalie Neypes.'
-  - name: Slayden Fernandes
+      - Builder/CAD
+      - Senior
+      - "4"
+      - I’m not sure
+      - Saltwater crocodiles
+  - name: Arkin Solomon
     image: /images/people/slayden.jpg
     answers:
-      - Senior captain, on-field coach
-      - Senior.
-      - "3."
-      - Competing.
-      - '“TrashCAN, not trash cannot”'
-  - name: Enzo Florendo
+      - Captain/Programmer
+      - Senior
+      - "4"
+      - Learning more about programming
+      - Giraffes
+  - name: Natalie Neypes
     image: /images/people/enzo.jpg
     answers:
-      - Builder.
-      - Senior.
-      - "3."
-      - How close the team is.
-      - '“I’ll figure it out”'
-  - name: Erik Greisen
+      - Captain/Builder
+      - Junior
+      - "2"
+      - Working together with the team and collaborating to do our best
+      - Cats
+  - name: Jack Capito
     image: /images/people/erik.jpg
     answers:
-      - Senior captain.
-      - Senior.
-      - "3."
-      - Community.
-      - '“If we don’t study the mistakes of the future, we’re doomed to repeat them for the first time” - Ken M.'
-  - name: Luke Heralla
+      - Builder/CAD
+      - Sophmore
+      - "2"
+      - I'm just excited to make a bot and hone in my engineering skills
+      - Bats
+  - name: Aislinn Fernandes
     image: /images/people/luke.jpg
     answers:
-      - Builder.
-      - Senior.
-      - "1."
-      - Community.
-      - '“T oday I l earned to ke r n”'
-  - name: Connor Howard
+      - Designer/Notebook/Builder
+      - Sophmore
+      - "2"
+      - I’m super excited to make more fun memories this year :)
+      - Cats
+  - name: Andrew Greisen
     image: /images/people/connor.jpg
     answers:
-      - Computer design specialist.
-      - Senior.
-      - "1."
-      - The teamwork.
-      - '“What is now proved was once only imagined.”'
-  - name: Owen Peterson
+      - Builder
+      - Sophmore
+      - "2"
+      - Building a bot that will work
+      - Buzzfeed says my favorite animal is a wolf
+  - name: Philip Ren
     image: /images/people/owon.jpg
     answers:
-      - Programmer.
-      - Senior.
-      - "2."
-      - Solving a problem.
-      - '“Murphy is always watching”'
-  - name: Casey Rittenhouse
+      - Programmer
+      - Sophmore
+      - "1"
+      - Learning how to creat the robot and program it
+      - Bees
+  - name: Heesoo Shin
     image: /images/people/casey.jpg
     answers:
-      - Senior captain, gunner/builder.
-      - Senior.
-      - "2."
-      - Snacks.
-      - '“I’ve never been a quitter” - Richard Nixon'
-  - name: William Sauter
-    image: /images/people/will.jpg
+      - Designer/Notebook/Builder
+      - Sophmore
+      - "2"
+      - Building a functioning robot that is able to do set tasks.
+      - Whales
+  - name: Carrie Greisen
+    image: /images/people/gavin.jpg
     answers:
-      - Builder.
-      - Senior.
-      - "3."
-      - The freedom to be creative.
-      - '“The best way to predict the future is to invent it” - Alan K'
-  - name: Arkin Solomon
-    image: /images/people/arkin.jpg
-    answers:
-      - Programmer.
-      - Junior.
-      - "3."
-      - Learning new things about programming
-      - '“I don’t worry about what people think of me because no one thinks about me” - Reddit'
-  - name: Natalie Neypes
-    image: /images/people/natalie.jpg
-    answers:
-      - Builder.
-      - Sophmore.
-      - "1."
-      - Being able to advance my robotics skills
-      - '“I don’t know yet”'
+      - Coach
+      - ""
+      - "9"
+      - Working with the students
+      - ""
   - name: Sandra Hollenbeck
     image: /images/people/sandy.jpg
     answers:
-      - Coach.
+      - Coach
       - ""
-      - "8."
-      - The students
-      - '“Aim high"'
+      - "9"
+      - I'm looking forward to having time to dig deeper and taking time to understand and apply some of the software and technology that we haven't had time for in past years. It will be wonderful to see SPQR expand our CAD modeling to animate the robot.
+      - I love my Aussie Doodle, and horses and someday, I hope to see a live platypus.
   - name: Gavin Peackock
     image: /images/people/gavin.jpg
     answers:
-      - Head coach.
+      - Coach
       - ""
-      - "8."
-      - Working with the students
-      - ""
+      - "9"
+      - I think this is a great chance for us to get much better at communicating with each other online. We have done some of this in the past but it is time to accelerate. With a longer season we can take much more time planning and designing.
+      - As for animals, I agree I’d like to see a platypus. I also love otters.
