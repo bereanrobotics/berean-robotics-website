@@ -1,6 +1,6 @@
 # Berean Robotics Website
 
-The following document reviews all apsects of how to setup and maintain the <https://bereanrobotics.org>.
+The following document reviews all apsects of how to setup and maintain the <https://bereanrobotics.org> website. Before editing the website you should read through this entire file.
 
 ## Getting Started
 
@@ -48,12 +48,29 @@ Install the following tools via Terminal (Mac) or PowerShell (Windows):
 
 ### Updating the Website
 
-All changes to the webiste code should be done on the `develop` branch. You can commit as many changes as you want to the develop branch and push them back up onto Github.
+All changes to the website code should be done on the `develop` branch. You can commit as many changes as you want to the develop branch and push them back up onto Github.
 
 Once you are ready to publish all of your changes onto the live website, you will need to merge the `develop` branch into the `master` branch. Then push the master branch back to Github.
 
 The website is hosted by [Netlify](https://www.netlify.com/). Netlify is configured to automatically detect changes in the `master` branch of our repository. As soon as you push new changes to the master branch, Netlify will publish those changes online.
 
+#### Updating cards
+
+Cards are the bordered sections of the website. If you are not going to change the website's template, all you need to change are the cards. In the `/_data/` directory, there are a few YAML files. `header.yml` contains all the links that appear in the website header. `home.yml` contains the cards on the home page. Editing these cards are fairly simple:
+
+- card-name: The title of the card
+- card-type: The type of the card (either `image-left-text-right` or `text-left-image-right`)
+- include-link: True if the card has a link button under the text
+- link: Where the link should point to (only used if `include-link` is true)
+- link-text: What the link button should say (only used if `include-link` is true)
+- card-image-path: The path of the image that goes on the card
+- card-text: The paragraph that goes on the card
+
+Editing the team page is equally as simple. Within the `team.yml` file, there is team member data, and bios. The key `questions` contains a list of strings that are questions, these are the questions that appear in bold on the website. The other top-level key, `people` is a list of people. It is quite easy to add or edit team members: 
+
+- name: The name of the member
+- image: The path to the picture of the team member
+- answers: This is a list of *strings* (so numbers should be surrounded in quotation marks) of answers to the questions, the order should match the order of the questions. 
 
 ## Technologies Used
 
