@@ -4,7 +4,7 @@
   "description": "Basic template for a new website project.",
   "main": "gulpfile.js",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.27.10",
     "bundled-gem-spawn": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
